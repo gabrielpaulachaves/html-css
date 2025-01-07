@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(2, 2, 51);
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: '> ';
+            color: grey;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        a::after{
+            content: ' [link]';
+            font-weight: lighter;
+            text-decoration: none;
+            color: grey;
+        }
+        .especial{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@bieelgod" target="_blank" rel="external">Canal no Youtube</a></li>
+        <li><a href="https://www.artstation.com/biellemythe" class="especial" target="_blank" rel="externa">Portifolio no Artstation</a></li>
+        <li><a href="https://github.com/bieljava" target="_blank" rel="external">Perfil no Github</a></li>
+    </ul>
+</body>
+</html>

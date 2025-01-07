@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, blue, purple, rgb(238, 107, 129), rgb(252, 198, 207));
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        main{
+            background-color: white;
+            width: 1200px;
+            margin: auto;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+            padding: 15px;
+            border-radius: 15px 0px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+        }
+        header{
+            background-color: white;
+            margin: 20px auto 20px auto;
+            text-align: center;
+            width: 700px;
+            border-radius: 15px;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.397);
+        }
+        nav{
+            background-color: grey;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: gold;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 5px 5px 5px white;
+            font-weight: bolder;
+            font-size: 3em;
+        }
+        aside{
+            font-style: italic;
+            text-decoration: underline;
+        }
+        footer{
+            background-color: rgb(48, 48, 48);
+            margin-top: 20px;
+            padding: 5px;
+        }
+        
+        #final{
+            font-style: italic;
+            color: white;
+            margin: 0px;
+            text-align: center;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(151, 151, 151);
+        }
+        #bola{
+            background-color: white;
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            outline: 5px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>site em desenvolvimento</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+<main>
+    <section id="assunto">
+
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>noticia sobre o Bostil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum libero dolorem explicabo accusamus deleniti voluptatibus facere, quis, vero optio quasi quisquam ipsam dicta modi. Dolor aspernatur aliquid dolorum ipsa minima?</p>
+            <aside>escrito por Bostileiro da silva junior</aside>
+        </article>
+            <article>
+                <h2>cuzil bananil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni nisi voluptatibus, id minima ratione recusandae, perferendis tenetur, ullam earum repellat ad maxime ea! Assumenda pariatur consequatur sapiente corporis? Cupiditate, modi!</p>
+                <aside>escrito por macaquil dias costas</aside>
+            </article>   
+    </section>
+</main>
+<footer>
+<p id="final">desenvolvido por Sigma da Bahia</p>
+</footer>
+<div id="bola">cu</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo hover</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: gray;
+            color: white;
+            width: 250px;
+            border: 1px solid black;
+        }
+        header{
+            background-color: gray;
+            width: 200px;
+            border: 2px solid black;
+            font-weight: bolder;
+        }
+    
+        header:hover{
+            background-color: yellow;
+            width: 200px;
+        }
+        header > p{
+            display: none;
+        }
+        header:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de hover</h1>
+    <p>passe o mouse por cima do texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>texto secreto</p>
+    </div>
+    <header>
+        cu
+        <p>cuzin</p>
+    </header>
+
+</body>
+</html>
