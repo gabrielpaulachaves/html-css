@@ -3,9 +3,87 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 body{
 background-color: antiquewhite
 
     
+}
+header{
+    background-color: black;
+    height: 300px;
+}
+header > h1{
+    color: white;
+    font-variant: small-caps;
+    font-size: 6em;
+    text-align: center;
+    padding-top: 60px;
+}
+header > div{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+header > div > a{
+    text-decoration: none;
+    color: white;
+}
+header > div > a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+}
+section#img1{
+    height: 1000px;
+    background-image: url('imagens/imagens/background001.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+section#img2{
+    height: 1000px;
+    background-image: url('imagens/imagens/background002.jpg');
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+section.imagem{
+    position: relative;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    width: 700px;
+    display: inline-block;
+    position: absolute;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > p > a:hover{
+    text-decoration: underline;
 }
