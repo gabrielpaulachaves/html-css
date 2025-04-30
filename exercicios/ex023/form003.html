@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros dados em formulário</title>
+</head>
+<body>
+    <h1>teste em formulário</h1>
+    <form action="" autocomplete="off">
+        <p>
+            <label for="inome">nome: </label>
+            <input type="text" name="" id="inome" required maxlength="50" size="45" placeholder="nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="" id="imedia" min="0" max="10" size="10" required placeholder="0 a 10" step="0.5">
+        </p>
+        <p>
+            <label for="imes">período letivo: </label>
+            <input type="month" name="" id="imes" value="2025-05">
+        </p>
+        <p>
+            <label for="idia">dia da prova: </label>
+            <input type="date" name="" id="idia">
+        </p>
+        <p>
+            <label for="ihora">horário da prova</label>
+            <input type="time" name="" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
