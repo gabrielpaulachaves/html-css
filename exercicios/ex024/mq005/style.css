@@ -9,7 +9,6 @@ body{
 }
 header{
     background-color: grey;
-    padding: 15px;
 }
 header h1{
     text-align: center;
@@ -17,23 +16,29 @@ header h1{
     color: white;
 }
 menu{
-    margin-bottom: -4px;
+    display: none;
 }
 menu li{
-    display: inline;
+    display: block;
     text-decoration: none;
-    padding: 10px;
     background-color: rgb(187, 177, 177);
+    list-style-type: none;
 }
 a{
     text-decoration: none;
     color: white;
+    display: block;
+    text-align: center;
+    border-top: 2px solid rgb(73, 73, 73);
+}
+a:hover{
+    background-color: rgb(196, 196, 196);
 }
 main{
     margin: auto;
     background-color: white;
-    width: 600px;
-    height: 600px;
+    width: 90vw;
+  
     margin-top: 10px;
     border-radius: 7px;
 }
@@ -43,8 +48,23 @@ article{
 }
 h2{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 p{
     line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+#burger{
+    color: white;
+    background-color: rgb(49, 49, 49);
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+#burger:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }

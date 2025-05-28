@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
+   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Menu responsivo</h1>
-        <menu>
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="opcoes">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -23,9 +25,22 @@
         <article>
             <h2>Testando menu responsivo</h2>
             <p>A medida que encolhemos a tela, as opções acima somem e dão espaço para um menu "hamburguer". </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repudiandae vero odit distinctio quod quia voluptas quae excepturi est, ratione, nam laudantium aut repellat quas a ipsum dolore minima sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore id enim dolorem consectetur! Nesciunt, ad excepturi similique omnis, ex non minima placeat perferendis, accusamus dolorem quo mollitia eaque officia! At. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi saepe quibusdam minus ullam rem atque reiciendis commodi nobis laboriosam itaque! Ratione inventore quibusdam omnis perferendis quidem voluptates nobis asperiores eligendi?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis dolor sint ab, perferendis maxime! Non, itaque illum dolores provident molestias asperiores labore. Accusantium fugit praesentium eum ad, aliquam delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vitae delectus facere ullam! Pariatur quis commodi ullam. Ut amet odit exercitationem magni totam, quam reiciendis rem, incidunt explicabo vitae nihil!</p>
+            <p>Este é apenas um texto de exemplo para testar o layout da página. Você pode substituí-lo por qualquer conteúdo real mais tarde.</p>
+            <p>Nem toda luz vem do sol. Às vezes, é só uma ideia que se acende no coração da noite.</p>
+            <p>Estamos trabalhando para oferecer a melhor experiência possível. Esta seção serve como um espaço reservado enquanto o conteúdo oficial é preparado.</p>
+            <p>Entre pixels e pausas, existe um silêncio bonito — o instante antes da criação acontecer.</p>
+            <p>Cada linha de código é um pequeno passo rumo ao impossível se tornando real.</p>
+            <p>Se está difícil, é sinal de que você está crescendo. Continue.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+           if (opcoes.style.display == 'block') {
+            opcoes.style.display = 'none'
+           } else {
+            opcoes.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
