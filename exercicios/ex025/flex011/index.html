@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexblox</title>
+    <style>
+        div.container{
+            background-color: sandybrown;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item{
+            background-color: seagreen;
+            border: 1px solid black;
+            flex-basis: 200px;
+        }
+        #f1{            
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+        #f2{
+             flex-shrink: 1;
+            flex-grow: 1;        
+        }
+        #f3{
+            flex-shrink: 3;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="f1" class="item">A</div>
+        <div id="f2" class="item">B</div>
+        <div id="f3" class="item">C</div>      
+    </div>
+</body>
+</html>
