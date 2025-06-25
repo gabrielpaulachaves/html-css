@@ -14,6 +14,7 @@ body{
 header{
     background-color: gray;
     color: white;
+    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -21,10 +22,11 @@ header{
 }
 h1{
     flex: 1 0 150px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.377);
 }
 menu{
     display: flex;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex-flow: row wrap;
     justify-content: flex-end;
 }
