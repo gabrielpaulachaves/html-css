@@ -12,7 +12,7 @@ body{
 }
 
 header, section.normal{
-    padding: 20px;
+    padding: 10px;
 }
 p, h1, h2{
     margin-bottom: 10px;
@@ -21,4 +21,36 @@ p, h1, h2{
 section.flex-content{
     padding: 20px;
     background-color: rgb(160, 189, 199);
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.418);
+}
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+article.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+.texto{
+    flex: 1 1 500px;
+    padding-top: 10px;
+}
+.media{
+    flex: 1 0 400px;
+    
+}
+.media > img{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+.media > iframe{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
 }
